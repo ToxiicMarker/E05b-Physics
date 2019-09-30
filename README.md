@@ -1,6 +1,9 @@
 # E05b-Physics
 Exploring 2D physics and collisions.
 
+In this excercise I worked with applying a downward acceleration to mimic the force of gravity on a ball. I also worked with elastic collisions in which the obejects changed to opposite directions with opposite magnitudes when they collide. Lastly, I incorporated a friction variable so that the ball would not bounce infinately. 
+
+
 In *main1.py*, you will need to apply gravity to the balls on the screen. To do so, you will need to find an appropriate gravity constant and assign GRAVITY to that number (line 17). Because of the way the Y axis works in Python Arcade, GRAVITY will need to be a negative number for the balls to fall.
 
 You will then need to accelerate the balls according to the GRAVITY constant. You can call b.accelerate(x,y) on line 67. In the case of applying gravity, x will be 0 and y will be GRAVITY.
